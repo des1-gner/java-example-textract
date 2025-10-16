@@ -96,6 +96,12 @@ Create a `pom.xml` file with the following content:
       <artifactId>jackson-databind</artifactId>
       <version>2.15.2</version>
     </dependency>
+    <dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <version>4.13.2</version>
+      <scope>test</scope>
+    </dependency>
   </dependencies>
   
   <build>
